@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import sklearn
 
 st.set_page_config(page_title="Daily Dashboard", page_icon="📊", layout="wide")
 
