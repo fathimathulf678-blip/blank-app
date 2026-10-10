@@ -3,8 +3,8 @@ import pandas as pd
 import sklearn
 
 
-import streamlit as st
-import pandas as pd
+
+
 import zipfile
 from io import BytesIO
 from sklearn.model_selection import train_test_split
