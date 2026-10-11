@@ -1,11 +1,13 @@
 [project]
-name = "blank-app-template"
-version = "0.1.0"
-description = "A simple Streamlit app template."
-readme = "README.md"
-requires-python = ">=3.14"
+name = “used-car-price-prediction”
+version = “0.1.0”
+description = “Used car price prediction app”
+requires-python = “>=3.12,<3.13”
 dependencies = [
-    "streamlit>=1.61.1",
+“streamlit”,
+“scikit-learn==1.7.2”,
+“pandas”,
+“numpy”
 ]
 
 [tool.uv]
